@@ -35,6 +35,11 @@ function getNetworks(): NetworksUserConfig | undefined {
                 url: "https://arb1.arbitrum.io/rpc",
                 chainId: 42161,
                 accounts
+            },
+            harmonydev: {
+                url: "https://api.s0.ps.hmny.io",
+                chainId: 1666900000,
+                accounts
             }
         }
     }
